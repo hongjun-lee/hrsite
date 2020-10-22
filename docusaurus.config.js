@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'My Site',
+  title: 'Nova文档',
   tagline: 'The tagline of my site',
   url: 'https://lidianzhe.github.io',
   baseUrl: '/hrsite/',
@@ -23,7 +23,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/lidianzhe//hrsite/',
+          href: 'https://github.com/lidianzhe/hrsite/',
           label: 'GitHub',
           position: 'right',
         },
@@ -71,7 +71,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/lidianzhe//hrsite/',
+              href: 'https://github.com/lidianzhe/hrsite/',
             },
           ],
         },
@@ -87,13 +87,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/lidianzhe//hrsite/',
+            'https://github.com/lidianzhe/hrsite/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/lidianzhe//hrsite/',
+            'https://github.com/lidianzhe/hrsite/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
