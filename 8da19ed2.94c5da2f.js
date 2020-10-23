@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{73:function(s){s.exports=JSON.parse('{"allTagsPath":"/hrsite/blog/tags","slug":"\u6587\u6863\u5171\u521b","name":"\u6587\u6863\u5171\u521b","count":1,"permalink":"/hrsite/blog/tags/\u6587\u6863\u5171\u521b"}')}}]);
