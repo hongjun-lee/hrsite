@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Nova人力资源管理系统文档',
+  title: 'Nova人力资源管理系统',
   tagline: '企业员工全生命周期管理，将信息转化为洞察，帮助企业提高竞争力。',
   url: 'https://hongjun-lee.github.io',
   baseUrl: '/hrsite/',

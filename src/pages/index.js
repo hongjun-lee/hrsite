@@ -17,11 +17,11 @@ const features = [
     ),
   },
   {
-    title: '完善的权限体系模型',
+    title: '集团管控权限体系',
     imageUrl: 'img/undraw_work_together_h63l.svg',
     description: (
       <>
-        系统支持角色、用户、多租户管理，支持任意多层组织架构，数据底层隔离，满足 <code>集团管控</code> 必需的责权利分离的需要。
+        系统支持用户、角色、岗位组合权限管理，支持多层组织架构，数据从底层安全隔离，满足 <code>集团管控</code> 必需的责权利分离的需要。
       </>
     ),
   },
@@ -34,6 +34,33 @@ const features = [
       </>
     ),
   },
+  {
+    title: '助力管理全面提升',
+    imageUrl: 'img/undraw_To_the_stars_qhyy.svg',
+    description: (
+      <>
+        着力于员工全生命周期管理、目标是将人力资源部门转化为企业战略执行部门，除了解决业务自动化以外，强化了人力管理和分析与洞察功能。满足高层管理者、业务人员、员工等不同视角的个性需求。
+      </>
+    ),
+  },
+  {
+    title: '微服务、模块化设计',
+    imageUrl: 'img/undraw_product_teardown_elol.svg',
+    description: (
+      <>
+        HTTP/REST API适用系统所有的应用程序功能，将系统的业务能力封装并对外提供服务，为实现与其他系统对接及协同办公提供了原生支持。包括与企业微信交互等。
+      </>
+    ),
+  },
+  {
+    title: '响应业务流程优化',
+    imageUrl: 'img/undraw_User_flow_re_bvfx.svg',
+    description: (
+      <>
+        独立的、可重用的HTML5工作流设计器，拥有丰富的JavaScript API，支持用户可视化设计，方便用户按需定制业务流程，以适应管理变更需求。        
+      </>
+    ),
+  },            
 ];
 
 function Feature({imageUrl, title, description}) {
