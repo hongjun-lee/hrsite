@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: '多平台部署、多终端使用',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/undraw_server_cluster_jwwq.svg',
     description: (
       <>
         系统支持布署在Linux、Windows、MacOS等多种操作系统下面，同时支持电脑、Pad、手机等终端操作。帮助企业节约成本，应对可能到来的各种挑战。
@@ -18,7 +18,7 @@ const features = [
   },
   {
     title: '完善的权限体系模型',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/undraw_work_together_h63l.svg',
     description: (
       <>
         系统支持角色、用户、多租户管理，支持任意多层组织架构，数据底层隔离，满足 <code>集团管控</code> 必需的责权利分离的需要。
@@ -27,7 +27,7 @@ const features = [
   },
   {
     title: '增强的分析和洞察能力',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/undraw_dashboard_nklg.svg',
     description: (
       <>
         将从业务中提炼出的统计和分析模型，制作成小部件显示在智能仪表页上，并且支持下钻式查询，帮助管理者提升对全局的实时掌控能力。
