@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Nova文档',
-  tagline: 'The tagline of my site',
+  title: 'Nova人力资源管理系统文档',
+  tagline: '企业员工全生命周期管理，将信息转化为洞察，帮助企业提高竞争力。',
   url: 'https://hongjun-lee.github.io',
   baseUrl: '/hrsite/',
   onBrokenLinks: 'throw',
@@ -9,7 +9,7 @@ module.exports = {
   projectName: 'hrsite', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: '首页',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -18,10 +18,10 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: '文档',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: '博客', position: 'left'},
         {
           href: 'https://github.com/hongjun-lee/hrsite/',
           label: 'GitHub',
@@ -33,40 +33,36 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '文档',
           items: [
             {
-              label: 'Style Guide',
+              label: '风格指南',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
+              label: '人力资源文档',
               to: 'docs/doc2/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '链接',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '人力资源管理平台',
+              href: 'http://202.107.77.158',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: '考勤管理系统',
+              href: 'http://202.107.77.158',
             },
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'Blog',
+              label: '博客',
               to: 'blog',
             },
             {
@@ -76,7 +72,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `版权所有 © ${new Date().getFullYear()} Nova人力资源项目组 `,
     },
   },
   presets: [

@@ -1,6 +1,5 @@
 ---
 id: doc2
-title: Document Number 2
+title: 服务器配置
 ---
-
-This is a link to [another document.](doc3.md) This is a link to an [external page.](http://www.example.com/)
+如果完成服务器上所需的环境配置，并且可以运行程序，我们可以进入到[数据准备](doc3.md)步骤了。

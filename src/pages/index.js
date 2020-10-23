@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: '多平台部署、多终端使用',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        系统支持布署在Linux、Windows、MacOS等多种操作系统下面，同时支持电脑、Pad、手机等终端操作。帮助企业节约成本，应对可能到来的各种挑战。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '完善的权限体系模型',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        系统支持角色、用户、多租户管理，支持任意多层组织架构，数据底层隔离，满足 <code>集团管控</code> 必需的责权利分离的需要。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '增强的分析和洞察能力',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        将从业务中提炼出的统计和分析模型，制作成小部件显示在智能仪表页上，并且支持下钻式查询，帮助管理者提升对全局的实时掌控能力。
       </>
     ),
   },
@@ -59,7 +56,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
@@ -72,7 +69,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              开始了解
             </Link>
           </div>
         </div>
