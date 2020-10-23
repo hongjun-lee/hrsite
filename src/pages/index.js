@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/undraw_server_cluster_jwwq.svg',
     description: (
       <>
-        支持布署在Linux、Windows、MacOS及国产操作系统在内的多种操作系统下面。同时支持电脑、Pad、手机等多终端操作。帮助企业节约布署成本，应对可能到来的各种挑战。
+        系统支持布署在Linux、Windows、MacOS及国产操作系统在内的多种操作系统下面。同时支持电脑、Pad、手机等多终端操作。帮助企业节约布署成本，应对可能到来的各种挑战。
       </>
     ),
   },
