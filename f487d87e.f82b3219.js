@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[31],{87:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u5927\u5bb6\u597d","permalink":"/hrsite/blog/hello"},{"title":"Welcome","permalink":"/hrsite/blog/welcome"},{"title":"Hello","permalink":"/hrsite/blog/hello-world"},{"title":"Hola","permalink":"/hrsite/blog/hola"}]}')}}]);
