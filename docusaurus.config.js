@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Nova文档',
   tagline: 'The tagline of my site',
-  url: 'https://lidianzhe.github.io',
+  url: 'https://hongjun-lee.github.io',
   baseUrl: '/hrsite/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'lidianzhe', // Usually your GitHub org/user name.
+  organizationName: 'hongjun-lee', // Usually your GitHub org/user name.
   projectName: 'hrsite', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -23,7 +23,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/lidianzhe/hrsite/',
+          href: 'https://github.com/hongjun-lee/hrsite/',
           label: 'GitHub',
           position: 'right',
         },
@@ -71,7 +71,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/lidianzhe/hrsite/',
+              href: 'https://github.com/hongjun-lee/hrsite/',
             },
           ],
         },
@@ -87,13 +87,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/lidianzhe/hrsite/edit/main/',
+            'https://github.com/hongjun-lee/hrsite/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/lidianzhe/hrsite/edit/main/',
+            'https://github.com/hongjun-lee/hrsite/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
