@@ -2,14 +2,15 @@
 id: test
 title: test doc
 sidebar_label:  test doc
-image: ../static/img/hongjun-lee.jpg
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## jaja
 
 this is a test doc.
+<img alt="logo" src={useBaseUrl('img/logo.svg')} />
 
 <Tabs
   defaultValue="apple"
