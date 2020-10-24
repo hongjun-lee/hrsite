@@ -8,6 +8,7 @@ module.exports = {
   organizationName: 'hongjun-lee', // Usually your GitHub org/user name.
   projectName: 'hrsite', // Usually your repo name.
   themeConfig: {
+    
     navbar: {
       title: '首页',
       logo: {
