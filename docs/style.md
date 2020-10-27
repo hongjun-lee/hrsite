@@ -145,7 +145,7 @@ Markdown是一种轻量级标记语言。它允许人们使用易读易写的纯
 
 使用`![替代文本](图片地址 可选标题)`表示，其中替代文本及可选标题都可以省略，其它等同于[链接](/docs/style#链接)语法，区别是变量赋值要紧随其后。
 ```
-我的blog: ![blog](../static/img/hongjun-lee.jpg 'it's me')
+我的blog: ![blog](../static/img/logo.svg 'logo')
 
 参考变量方式: ![alt text][logo]
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
