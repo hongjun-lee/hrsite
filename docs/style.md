@@ -111,7 +111,7 @@ Markdown是一种轻量级标记语言。它允许人们使用易读易写的纯
 ```
 [点我打开Github](https://www.github.com/)
 
-[把鼠标移到我上面](https://www.github.com/ "我是一个链接提示")
+[把鼠标移到我上面](https://www.github.com/ "我是一个链接提示")
 
 [我是一个参考风格的链接][linktext]
 
@@ -126,7 +126,7 @@ Markdown是一种轻量级标记语言。它允许人们使用易读易写的纯
 ```
 [点我打开Github](https://www.github.com/)
 
-[把鼠标移到我上面](https://www.github.com/ "我是一个链接提示")
+[把鼠标移到我上面](https://www.github.com/ "我是一个链接提示")
 
 [我是一个参考风格的链接][linktext]
 
@@ -150,7 +150,7 @@ Markdown是一种轻量级标记语言。它允许人们使用易读易写的纯
 参考变量方式: ![alt text][logo]
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
 ```
-我的blog: ![blog](../static/img/hongjun-lee.jpg 'it's me')
+我的blog: ![blog](../static/img/logo.svg 'logo')
 
 参考变量方式: ![alt text][logo]
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
